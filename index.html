@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script src="js/essentials.js" defer></script>
+    <script src="js/sorting_algos.js" defer></script>
+    <script src="js/listeners.js" defer></script>
+    <title>Sorting Simulation</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <h1 class="logo">
+            <span class="text-nikhil">Sorting</span>Simulation</h1>
+            <ul>
+                <li class="nav-item">
+                    <select id="sortAlgo">
+                    </select>
+                </li>
+                <li>
+                    <button class="btn btn-outline-light mr-2" id="start"><strong>Start Simulation</strong></button> 
+                </li>
+                
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-2">
+                    <label><strong>Array Size</strong></label>
+                    <input type="range" id="inputSize" min="4" max="10">
+                </li>
+                <li class="nav-item mt-1">
+                    <button class="btn btn-outline-light" id="generate"><strong>Generate new array</strong></button> 
+                </li>
+
+            </ul>
+    </nav>
+
+    <div class="container m-5">
+        <div class="array"></div>
+    </div>
+
+    <div class="container m-5">
+        <h2>JAVA Code - </h2>
+        <hr>
+        <pre class="preview" id="code">
+        </pre>
+    </div>
+
+    <section id="features">
+        <div class="box">
+            <h5>Follow me on Github!</h3>
+            <a href="https://github.com/nikhilkarve" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+        </div>
+        <div class="box bg-nikhil">
+            <h5>Let's connect on LinkedIn!</h3>
+            <a href="https://www.linkedin.com/in/nikhil-karve-66067a183/"><i class="fa-brands fa-linkedin fa-3x"></i></a> 
+        </div>
+        <div class="box">
+            <h5>Follow me on Medium!</h3>
+            <a href="https://medium.com/@nikhilkarve007"><i class="fa-brands fa-medium fa-3x"></i></a>
+        </div>
+    </section>
+
+    <!-- <div>
+        <footer class="text-center footer-format">
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+            <br>
+            <strong>Made by - <a href="https://github.com/nikhilkarve" target="_blank">Aditya Mahajan</a></strong>
+        </footer>
+      </div> -->
+        
+</body>
+</html>
