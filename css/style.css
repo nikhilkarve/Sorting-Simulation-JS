@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+/* Text  */
+.text-nikhil {
+  color: #28a745;
+}
+/* .text-nikhil { 
+  color: #0284d0;
+}  */
+/* Styling */
+.preview {
+  font-size: 15px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.footer-format {
+  background-color: #222;
+  color: #f1f3ed;
+  padding: 10px;
+}
+
+.navbar {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  padding: 10px 20px;
+  margin: 20px 30px 10px 30px;
+}
+
+.navbar .logo {
+  font-weight: 400;
+}
+
+#inputSize {
+  position: relative;
+  top: 10%;
+}
+
+label {
+  font-size: 20px;
+  padding: 8px;
+  color: white;
+}
+
+select {
+  position: relative;
+  top: 10%;
+  padding: 8px;
+  width: 200px;
+}
+
+.array {
+  display: flex;
+  position: relative;
+  margin: auto;
+}
+
+.cell {
+  font-size: 36px;
+  margin: 5px;
+  padding: 10px;
+
+  background-color: #eee;
+
+  color: #222;
+  border: 5px solid #eee;
+  border-radius: 5px;
+  position: relative;
+  transition: all 0.4s ease-in;
+}
+
+.cell.referenced {
+  background-color: #9cec5b;
+  border-color: #9cec5b;
+  color: white;
+  transition: all 0.4s ease-out;
+}
+
+.cell.compared {
+  border-color: #50c5b7;
+  background-color: #50c5b7;
+  color: white;
+  transition: all 0.4s ease-out;
+}
+
+.cell.done {
+  border-color: #6184d8;
+  background-color: #6184d8;
+  color: white;
+  transition: 0.5s;
+}
+
+.cell.m-right {
+  animation-name: m-right;
+  animation-duration: 1s;
+}
+
+.cell.m-left {
+  animation-name: m-left;
+  animation-duration: 1s;
+}
+
+a {
+  color: inherit;
+}
+
+/* Socials */
+.box {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  padding: 50px;
+}
+
+.logo-color {
+  background: #333;
+}
+
+.box i {
+  margin-top: 10px;
+}
+
+@keyframes m-right {
+  0% {
+    left: 0%;
+  }
+
+  33% {
+    left: 0;
+  }
+
+  100% {
+    left: 90px;
+  }
+}
+
+@keyframes m-left {
+  0% {
+    right: 0%;
+  }
+
+  33% {
+    right: 0;
+  }
+
+  100% {
+    right: 90px;
+  }
+}
